@@ -9,13 +9,13 @@ function Conditional() {
 
         setUserEmail(email);
         console.log(userEmail);
-    }
+    };
 
     function limparEmail(e) {
         e.preventDefault();
 
         setUserEmail('');
-    }
+    };
 
     return (
         <div>
